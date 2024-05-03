@@ -321,12 +321,14 @@ object-fit: contain;
 }
 .boton {
   padding: 10px;
-  outline: none;
-  background-color:none;
-  border-color: #66B33A;
-  color: #66B33A;
-  font-size: medium;
+    outline: none;
+    border-radius: 10px;
+    background-color:none;
+    border-color: #66B33A;
+    color: #66B33A;
+    font-size: medium;
 }
+
 
 .botonContainer {
 display: flex;
