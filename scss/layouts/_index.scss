@@ -1,0 +1,59 @@
+
+/* Bloque 1 */
+.bloque1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    row-gap: 10px;
+  }
+  
+  .indexTextoprincipal {
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size: 50px;
+    font-weight: 100px;
+    font-style: normal;
+    text-align: center;
+    position: absolute;
+  }
+  
+  .imagenIndex {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    padding-top: 2%;
+  }
+  
+  /* comunicación de crisis section */
+  .títuloParrafoeimagen {
+    display: flex;
+    background-color: none;
+    flex-direction: column;
+    position: relative;
+    padding: 50px;
+    width: 100%;
+  }
+  
+  .palabrasEnlaces {
+    font-family: roboto;
+    font-size: 15;
+    font-weight: 300;
+    color: #E0040B;
+  }
+  
+  .crisispng {
+    width: 50%;
+    height: 650px;
+    object-fit: cover;
+    padding: 10%;
+    padding-top: 2%;
+  }
+  
+  .planificacionpng {
+    width: 50%;
+    height: 650px;
+    object-fit: cover;
+    padding: 10%;
+    padding-top: 2%;
+  }  

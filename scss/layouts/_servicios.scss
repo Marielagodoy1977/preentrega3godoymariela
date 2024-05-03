@@ -1,0 +1,46 @@
+/* servicios */
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+.barrainicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    padding-top:3%
+}
+.logonegroPng {
+    width:50%;
+    height:70%px;
+    object-fit: cover;
+    padding: 10%;
+    padding-top: 2%;
+}
+
+.subtitulo {
+    padding: 50px;
+    display: inline-block;
+    width: 60%;
+    position: absolute;
+    top: 5px;
+    left: 600px;
+}
+
+.contenedorBody {
+display: flex;
+align-content: space-between;
+
+}
+.títuloParrafoeimagenserv {
+    display: flex;
+    background-color: none;
+    flex-direction: column;
+    position: relative;
+    padding: 50px;
+    width: 100%;
+}
